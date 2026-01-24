@@ -1,13 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- CRITICAL FOR GOOGLE -->
+    <title>Secure Visions Enterprises - CCTV & Fire Alarm Systems Karachi | +92 371 2038356</title>
+    <meta name="description" content="Professional CCTV Installation & Fire Alarm Systems in Karachi. CCTV Cameras, Fire Fighting Equipment. Office: E73 City Center near Awami Markaz, Shahrah-e-Faisal Karachi">
+    <meta name="keywords" content="CCTV installation Karachi, fire alarm systems, CCTV cameras Pakistan, fire fighting equipment, security systems Karachi, office E73 City Center">
+    <meta name="author" content="Muhammad Azeem">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    
+    <!-- Basic Tags -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Secure Visions Enterprises | Professional CCTV Installation</title>
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Secure Visions Enterprises - CCTV & Fire Systems Karachi">
+    <meta property="og:description" content="Professional CCTV & Fire Alarm Installation Services in Karachi. Call +92 371 2038356">
+    <meta property="og:url" content="https://securevisionsenterprises-pk.github.io/secure-visions-website/">
+    <meta property="og:type" content="website">
+    
+    <!-- Links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
     <style>
         :root {
             --primary: #1a56db;
@@ -282,9 +298,47 @@
             color: var(--primary);
         }
         
+        /* Gallery Section */
+        .gallery {
+            background-color: var(--blue-bg);
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .gallery-card {
+            background-color: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(26, 86, 219, 0.08);
+            transition: transform 0.3s;
+        }
+        
+        .gallery-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .gallery-img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .gallery-content {
+            padding: 20px;
+        }
+        
+        .gallery-content h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+        
         /* Why Choose Us */
         .why-us {
-            background-color: var(--blue-bg);
+            background-color: var(--light);
         }
         
         .features-grid {
@@ -539,7 +593,7 @@
                 font-size: 0.9rem;
             }
             
-            .service-card, .contact-form {
+            .service-card, .contact-form, .gallery-card {
                 padding: 20px;
             }
             
@@ -561,7 +615,7 @@
                 <i class="fas fa-eye logo-icon"></i>
                 <div class="logo-text-container">
                     <div class="logo-main">Secure visions enterprises</div>
-                    <div class="logo-tagline">SECURITY SERVICES</div>
+                    <div class="logo-tagline">SECURITY & FIRE SYSTEMS</div>
                 </div>
             </a>
             
@@ -569,6 +623,7 @@
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Our Products</a></li>
                     <li><a href="#why-us">Why Choose Us</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -582,6 +637,7 @@
                 <ul class="mobile-nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Our Products</a></li>
                     <li><a href="#why-us">Why Choose Us</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
@@ -592,24 +648,40 @@
     <!-- Hero Section -->
     <section class="hero" id="home">
         <div class="container">
-            <h1>Professional CCTV Installation Services</h1>
-            <p>Secure Visions Enterprises provides top-quality surveillance solutions for homes and businesses. With over 10 years of experience, we ensure your property is protected with cutting-edge technology.</p>
+            <h1>CCTV & Fire Alarm Systems Installation Karachi</h1>
+            <p>Secure Visions Enterprises - Professional CCTV Camera & Fire Alarm System Installation in Karachi. Complete Security & Fire Safety Solutions for Homes and Businesses.</p>
             <a href="#contact" class="btn btn-primary">Get Free Consultation</a>
-            <a href="#services" class="btn" style="margin-left: 15px;">Our Services</a>
+            <a href="#gallery" class="btn" style="margin-left: 15px;">View Our Products</a>
         </div>
     </section>
 
     <!-- Services Section -->
     <section class="section" id="services">
         <div class="container">
-            <h2 class="section-title">Our <span>Services</span></h2>
+            <h2 class="section-title">Our <span>Security Services</span></h2>
             <div class="services-grid">
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-home"></i>
+                        <i class="fas fa-video"></i>
                     </div>
-                    <h3>Residential CCTV Installation</h3>
-                    <p>Complete home security solutions with high-definition cameras, remote monitoring, and smart home integration.</p>
+                    <h3>CCTV Camera Installation</h3>
+                    <p>Professional installation of HD CCTV cameras for residential and commercial properties with remote monitoring.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-fire-extinguisher"></i>
+                    </div>
+                    <h3>Fire Alarm Systems</h3>
+                    <p>Installation of advanced fire detection and alarm systems for early warning and safety compliance.</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Fire Fighting Equipment</h3>
+                    <p>Supply and installation of fire extinguishers, hydrants, hose reels, and complete fire safety systems.</p>
                 </div>
                 
                 <div class="service-card">
@@ -617,23 +689,15 @@
                         <i class="fas fa-building"></i>
                     </div>
                     <h3>Commercial Security Systems</h3>
-                    <p>Business surveillance systems with advanced features like facial recognition, license plate capture, and access control.</p>
+                    <p>Complete business security solutions including access control, surveillance, and alarm systems.</p>
                 </div>
                 
                 <div class="service-card">
                     <div class="service-icon">
-                        <i class="fas fa-video"></i>
+                        <i class="fas fa-home"></i>
                     </div>
-                    <h3>IP Camera Systems</h3>
-                    <p>High-resolution IP camera installation with cloud storage, mobile access, and advanced analytics.</p>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-wifi"></i>
-                    </div>
-                    <h3>Wireless CCTV Solutions</h3>
-                    <p>Flexible wireless camera installation without the need for extensive wiring, perfect for rental properties.</p>
+                    <h3>Home Security Solutions</h3>
+                    <p>Complete home security packages including CCTV, burglar alarms, and smart home integration.</p>
                 </div>
                 
                 <div class="service-card">
@@ -641,21 +705,69 @@
                         <i class="fas fa-tools"></i>
                     </div>
                     <h3>Maintenance & Support</h3>
-                    <p>Regular maintenance, troubleshooting, and system upgrades to keep your security system running optimally.</p>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3>Security Consultation</h3>
-                    <p>Professional assessment of your security needs and customized solutions to protect your property effectively.</p>
+                    <p>Regular maintenance, repair, and 24/7 support for all security and fire safety systems.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Why Choose Us Section -->
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Our <span>Products Gallery</span></h2>
+            <div class="gallery-grid">
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1560763223966-56c8c6a14c8a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dome CCTV Camera" class="gallery-img">
+                    <div class="gallery-content">
+                        <h3>Dome CCTV Cameras</h3>
+                        <p>High-resolution dome cameras with 360° coverage, night vision, and weatherproof design for indoor/outdoor use.</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="PTZ CCTV Camera" class="gallery-img">
+                    <div class="gallery-content">
+                        <h3>PTZ Security Cameras</h3>
+                        <p>Pan-Tilt-Zoom cameras with remote control, auto tracking, and high optical zoom for large area surveillance.</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fire Alarm Control Panel" class="gallery-img">
+                    <div class="gallery-content">
+                        <h3>Fire Alarm Control Panels</h3>
+                        <p>Advanced fire alarm control panels with smoke/heat detectors, manual call points, and voice evacuation systems.</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1581094794329-1d5b6d530e7a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Fire Extinguishers" class="gallery-img">
+                    <div class="gallery-content">
+                        <h3>Fire Extinguishers</h3>
+                        <p>Various types of fire extinguishers (ABC, CO2, Foam) with regular maintenance and refilling services.</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="IP Network Cameras" class="gallery-img">
+                    <div class="gallery-content">
+                        <h3>IP Network Cameras</h3>
+                        <p>4K IP cameras with PoE support, motion detection, and cloud storage capabilities for modern security needs.</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-card">
+                    <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60" alt="Fire Hose Reels" class="gallery-img">
+                    <div class="gallery-content">
+                        <h3>Fire Hose Reels & Hydrants</h3>
+                        <p>Complete fire fighting equipment including hose reels, hydrants, and fire safety signage installation.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
     <section class="section why-us" id="why-us">
         <div class="container">
             <h2 class="section-title">Why <span>Choose Secure Visions</span></h2>
@@ -665,7 +777,7 @@
                         <i class="fas fa-certificate"></i>
                     </div>
                     <h3>Certified Experts</h3>
-                    <p>Our technicians are licensed and certified with extensive experience in security system installation.</p>
+                    <p>Our technicians are certified in CCTV installation and fire safety systems with extensive experience.</p>
                 </div>
                 
                 <div class="feature">
@@ -673,7 +785,7 @@
                         <i class="fas fa-headset"></i>
                     </div>
                     <h3>24/7 Support</h3>
-                    <p>Round-the-clock customer support and emergency services to address your security concerns anytime.</p>
+                    <p>Round-the-clock customer support and emergency services for security and fire safety systems.</p>
                 </div>
                 
                 <div class="feature">
@@ -681,7 +793,7 @@
                         <i class="fas fa-award"></i>
                     </div>
                     <h3>Quality Products</h3>
-                    <p>We use only top-tier equipment from trusted brands with warranties for long-lasting performance.</p>
+                    <p>We use only top-tier equipment from trusted international and local brands with warranties.</p>
                 </div>
                 
                 <div class="feature">
@@ -689,7 +801,7 @@
                         <i class="fas fa-handshake"></i>
                     </div>
                     <h3>Customer Focused</h3>
-                    <p>We prioritize your security needs and provide customized solutions that fit your budget and requirements.</p>
+                    <p>Customized solutions that fit your specific security needs, budget, and property requirements.</p>
                 </div>
             </div>
         </div>
@@ -698,7 +810,7 @@
     <!-- Contact Section -->
     <section class="section" id="contact">
         <div class="container">
-            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <h2 class="section-title">Contact <span>Our Security Experts</span></h2>
             <div class="contact-container">
                 <div class="contact-form">
                     <h3>Request a Free Quote</h3>
@@ -715,18 +827,18 @@
                         
                         <div class="form-group">
                             <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone" required>
+                            <input type="tel" id="phone" name="phone" required placeholder="+92 XXX XXXXXXX">
                         </div>
                         
                         <div class="form-group">
                             <label for="service">Service Needed</label>
                             <select id="service" name="service">
-                                <option value="residential">Residential CCTV Installation</option>
-                                <option value="commercial">Commercial Security Systems</option>
-                                <option value="ip-camera">IP Camera Systems</option>
-                                <option value="wireless">Wireless CCTV Solutions</option>
+                                <option value="cctv">CCTV Camera Installation</option>
+                                <option value="fire-alarm">Fire Alarm Systems</option>
+                                <option value="fire-fighting">Fire Fighting Equipment</option>
+                                <option value="commercial">Commercial Security</option>
+                                <option value="home">Home Security</option>
                                 <option value="maintenance">Maintenance & Support</option>
-                                <option value="consultation">Security Consultation</option>
                             </select>
                         </div>
                         
@@ -735,13 +847,13 @@
                             <textarea id="message" name="message" rows="4"></textarea>
                         </div>
                         
-                        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Request</button>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Request Free Quote</button>
                     </form>
                 </div>
                 
                 <div class="contact-info">
                     <h3>Contact Information</h3>
-                    <p>Have questions or need immediate assistance? Reach out to our team.</p>
+                    <p>Need security or fire safety solutions? Contact our expert team.</p>
                     
                     <div class="contact-item">
                         <div class="contact-icon">
@@ -759,7 +871,7 @@
                         </div>
                         <div>
                             <h4>Phone Number</h4>
-                            <p>+92 311 2587438</p>
+                            <p>+92 371 2038356</p>
                         </div>
                     </div>
                     
@@ -778,8 +890,8 @@
                             <i class="fas fa-map-marker-alt"></i>
                         </div>
                         <div>
-                            <h4>Business Address</h4>
-                            <p>Sharah-e-Faisal, Karachi, Pakistan</p>
+                            <h4>Office Address</h4>
+                            <p>Office #E73, City Center, Near Awami Markaz, Shahrah-e-Faisal, Karachi</p>
                         </div>
                     </div>
                     
@@ -789,8 +901,8 @@
                         </div>
                         <div>
                             <h4>Business Hours</h4>
-                            <p>Monday - Friday: 8:00 AM - 6:00 PM</p>
-                            <p>Saturday: 9:00 AM - 4:00 PM</p>
+                            <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
+                            <p>Saturday: 10:00 AM - 5:00 PM</p>
                             <p>Emergency Services: 24/7</p>
                         </div>
                     </div>
@@ -798,9 +910,9 @@
                     <div class="proprietor-info">
                         <h4>Direct Contact</h4>
                         <p><strong>Proprietor:</strong> Muhammad Azeem</p>
-                        <p><strong>Mobile:</strong> +92 311 2587438</p>
+                        <p><strong>Mobile:</strong> +92 371 2038356</p>
                         <p><strong>Email:</strong> securevisionsenterprises@gmail.com</p>
-                        <p><strong>Address:</strong> Sharah-e-Faisal, Karachi, Pakistan</p>
+                        <p><strong>Office:</strong> #E73, City Center, Near Awami Markaz, Shahrah-e-Faisal, Karachi</p>
                     </div>
                 </div>
             </div>
@@ -814,13 +926,13 @@
                 <div class="footer-about">
                     <div class="footer-logo-container">
                         <div class="footer-logo-main">Secure visions enterprises</div>
-                        <div class="footer-logo-tagline">SECURITY SERVICES</div>
+                        <div class="footer-logo-tagline">SECURITY & FIRE SYSTEMS</div>
                     </div>
-                    <p>Professional CCTV installation and security solutions for residential and commercial properties. Protecting what matters most since 2012.</p>
+                    <p>Professional CCTV installation and fire safety systems in Karachi. Serving residential and commercial clients since 2012.</p>
                     <p><i class="fas fa-user-tie" style="margin-right: 10px;"></i> <strong>Proprietor:</strong> Muhammad Azeem</p>
-                    <p><i class="fas fa-phone" style="margin-right: 10px;"></i> +92 311 2587438</p>
+                    <p><i class="fas fa-phone" style="margin-right: 10px;"></i> +92 371 2038356</p>
                     <p><i class="fas fa-envelope" style="margin-right: 10px;"></i> securevisionsenterprises@gmail.com</p>
-                    <p><i class="fas fa-map-marker-alt" style="margin-right: 10px;"></i> Sharah-e-Faisal, Karachi, Pakistan</p>
+                    <p><i class="fas fa-map-marker-alt" style="margin-right: 10px;"></i> Office #E73, City Center, Near Awami Markaz, Shahrah-e-Faisal, Karachi</p>
                 </div>
                 
                 <div class="footer-links">
@@ -828,6 +940,7 @@
                     <ul>
                         <li><a href="#home">Home</a></li>
                         <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Our Products</a></li>
                         <li><a href="#why-us">Why Choose Us</a></li>
                         <li><a href="#contact">Contact</a></li>
                     </ul>
@@ -836,26 +949,26 @@
                 <div class="footer-links">
                     <h4>Our Services</h4>
                     <ul>
-                        <li><a href="#services">Residential Installation</a></li>
-                        <li><a href="#services">Commercial Systems</a></li>
-                        <li><a href="#services">IP Camera Systems</a></li>
-                        <li><a href="#services">Maintenance & Support</a></li>
+                        <li><a href="#services">CCTV Installation</a></li>
+                        <li><a href="#services">Fire Alarm Systems</a></li>
+                        <li><a href="#services">Fire Fighting Equipment</a></li>
+                        <li><a href="#services">Security Systems</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-links">
-                    <h4>Follow Us</h4>
+                    <h4>Contact Support</h4>
                     <ul>
-                        <li><a href="#"><i class="fab fa-facebook" style="margin-right: 10px;"></i> Facebook</a></li>
-                        <li><a href="#"><i class="fab fa-whatsapp" style="margin-right: 10px;"></i> WhatsApp</a></li>
-                        <li><a href="#"><i class="fab fa-linkedin" style="margin-right: 10px;"></i> LinkedIn</a></li>
-                        <li><a href="#"><i class="fab fa-instagram" style="margin-right: 10px;"></i> Instagram</a></li>
+                        <li><a href="tel:+923712038356"><i class="fas fa-phone" style="margin-right: 10px;"></i> Call Now</a></li>
+                        <li><a href="https://wa.me/923712038356"><i class="fab fa-whatsapp" style="margin-right: 10px;"></i> WhatsApp</a></li>
+                        <li><a href="mailto:securevisionsenterprises@gmail.com"><i class="fas fa-envelope" style="margin-right: 10px;"></i> Email Us</a></li>
+                        <li><a href="#contact"><i class="fas fa-map-marker-alt" style="margin-right: 10px;"></i> Visit Office</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="copyright">
-                <p>&copy; 2023 Secure Visions Enterprises. All rights reserved. | Professional CCTV Installation Services | Proprietor: Muhammad Azeem</p>
+                <p>&copy; 2023 Secure Visions Enterprises Karachi. CCTV & Fire Safety Systems Pakistan. | Proprietor: Muhammad Azeem | +92 371 2038356 | Office: #E73 City Center, Near Awami Markaz, Shahrah-e-Faisal, Karachi</p>
             </div>
         </div>
     </footer>
@@ -900,7 +1013,7 @@
             const serviceText = document.getElementById('service').options[document.getElementById('service').selectedIndex].text;
             
             // Show success message
-            alert(`Thank you ${name}! We've received your request for ${serviceText}. Our team at Secure Visions Enterprises will contact you at ${phone} within 24 hours.`);
+            alert(`Thank you ${name}! We've received your request for ${serviceText}. Muhammad Azeem will contact you at ${phone} within 1 hour.`);
             
             // Reset form
             quoteForm.reset();
